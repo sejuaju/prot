@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("assets/font/Helvetica-Bold.ttf");
+    src: url("assets/font/Helvetica-BoldOblique.ttf");
+    src: url("assets/font/helvetica-compressed-5871d14b6903a.otf");
+    src: url("assets/font/helvetica-light-587ebe5a59211.ttf");
+    src: url("assets/font/Helvetica-Oblique.ttf");
+    src: url("assets/font/helvetica-rounded-bold-5871d05ead8de.otf");
+    src: url("assets/font/Helvetica.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to left, #008FFB, #00E3FD);
+}
+.border-gradient-bottom {
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-bottom-width: 1px;
+    border-image-source: linear-gradient(to left, #008FFB, #00E3FD);
+}
+
+.range-slider {
+    background: "linear-gradient(to right,#0087f0,#00a3bb)" !important;
+}
+
+.custom-bg {
+    background : url('./assets/sayhi.png');
+    position: absolute;
+    width: 205vh;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+}
+
+ul li {
+    list-style-type:disc;
+}
+
+.landing-bg{
+    background : url("./assets/landingpage/BG.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.landing-bg2{
+    background : url("./assets/landingpage/BG2.png");
+    position: center;
+    background-size: cover;
+    width: 1540px;
+    height: 700px;
+    left: -1px;
+    top: 778px;
+}
+
+.text-gradient {
+   
+    background: -webkit-linear-gradient(#B70F0F, #B70F0F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-green {
+    background: -webkit-linear-gradient(#11c12D, #11c12D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.p-2 {
+   height: 60px;
+    background: rgba(18, 18, 18, 0.4);
+}
+
+.Icon-1 {
+    position: absolute;
+    width: 776px;
+    height: 521px;
+    left: -10px;
+    top: 210px;
+}    
+
+.Icon-2 {
+    position: absolute;
+    width: 950px;
+    height: 621px;
+    left: 290px;
+    top: 300px;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+}
+
+.Icon-3 {
+     position: absolute;
+     width: 776px;
+     height: 521px;
+     left: 777px;
+     top: 210px;
+}
+
+.Icon-5 {
+    position: absolute;
+    width: 786px;
+    height: 606px;
+    left: 10px;
+    top: 750px;
+    filter: drop-shadow(0px 4px 50px #E1AF0A);    
+}
+
+.Icon-6 {
+    position: absolute;
+    width: 556px;
+    height: 404px;
+    left: 124px;
+    top: 900px;
+    filter: drop-shadow(0px 0px 50px #E1AF0A);
+
+}
+
+.Icon-4 {
+ 
+   position: relative;
+   width: 48px;
+   height: 48px;
+   left: -100px;
+   top: -120px;
+
+}
